@@ -5,8 +5,8 @@ let bigsize = "300";
 let smallsize = "150";
 
 function changeSizeImage(photo) {
-if(photo.height == bigsize) photo.height = smallsize;
-else photo.height = bigsize;
+    if(photo.height == bigsize) photo.height = smallsize;
+    else photo.height = bigsize;
 }
 
 // ////////2
